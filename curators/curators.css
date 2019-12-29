@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: nunito;
+}
+#logo{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  height: 5%;
+}
+#profileimg{
+  position: absolute;
+  top: 2%;
+  left: 93%;
+  border-radius: 8px;
+  height: 8%;
+}
+.cur{
+  position: absolute;
+  font-size: 60px;
+  font-weight: 900;
+  top: 70%;
+  left: -4%;
+  transform: rotate(-90deg);
+}
+svg{
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  top: 15%;
+  left: 3%;
+}
+.sem{
+  position: absolute;
+  border-radius: 10px;
+  top: 5%;
+  left: 13%;
+  height: 50px;
+  padding: 0px;
+  width: 180px;
+  overflow: hidden;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.sem li{
+  margin: 15px 10px 10px 10px;
+}
+.sem li a{
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  padding-bottom: 8px;
+  margin: 10px 10px 10px 15px;
+  font-weight: 700;
+}
+a:nth-child(1){
+  border-bottom: 6px solid #35477d;
+}
+.box{
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  margin: 10px;
+  height: 85%;
+  width: 90%;
+  border-radius: 20px;
+  background-color: #f6e1e1;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+li {
+  position: relative;
+  margin: 15% 0 5% 6%;
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+}
+.book img{
+  position: absolute;
+  margin: -55% 0 0 18%;
+  width: 65%;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  z-index: 1;
+  transition: linear 0.3s, margin 0s;
+}
+li .book{
+  position: inherit;
+  background-color: #ffffff;
+  height: 200px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.1);
+  transition: linear 0.3s;
+}
+.title{
+  position: relative;
+  text-align: center;
+  top: 56%;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 15px 15px 0 15px;
+  text-overflow: ellipsis;
+  transition: linear 0.4s;
+}
+.year{
+  position: relative;
+  text-align: center;
+  top: 52%;
+  display: none;
+  font-weight: 800;
+  font-size: 15px;
+  color: #808080;
+  padding: 15px 15px 0 15px;
+  text-overflow: ellipsis;
+  transition: linear 0.4s;
+}
+.book:hover img{
+  box-shadow: 15px 10px 15px 1px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+.book:hover .year{
+  display: block;
+}
+a:hover{
+  border-bottom: 6px solid #35477d;
+}
